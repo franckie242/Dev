@@ -9,7 +9,7 @@
             $fichier = 'etablissements_denseignement_superieur.csv';
 
             $fich = fopen($fichier, 'r');
-            $ligne = fgetcsv($fich);
+            $ligne = fgetcsv($fich, 3700, ';');
             $ligneTab = explode(";", $ligne );
             echo "<option value=\"$ligneTab[11]\">".$ligneTab[11]."</option>";
         ?>
