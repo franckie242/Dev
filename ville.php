@@ -13,6 +13,8 @@
             $ligneTab = explode(";", $ligne );
             echo "<option value=\"$ligneTab[11]\">".$ligneTab[11]."</option>";
         ?>
+    </fieldset>
+        </form>
 <?php
     require_once("footer.inc.php");
 ?>
