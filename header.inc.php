@@ -11,7 +11,7 @@
 			<h1>Cherch'ecole</h1>
 			<nav>
 				<ul class="acc">
-					<li class="acc-item"><a href="../index.html">Accueil</a></li>
+					<li class="acc-item"><a href="../index.php">Accueil</a></li>
 					<li class="acc-item"><a href="../ville.php">Par ville</a></li>
 					<li class="acc-item"><a href="../region.php">Par région</a></li>
 					<li class="acc-item"><a href="../academie.php">Par académie</a></li>
