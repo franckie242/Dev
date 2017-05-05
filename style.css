@@ -26,7 +26,7 @@ h1{
 nav{
     width:50%;
     margin:auto;
-    border: 1px #5eaeae solid;
+    border: 1px solid #5eaeae;
     background-color: #5eaeae ;
 }
 a{
@@ -40,7 +40,8 @@ a:hover{
     text-decoration: underline;
 }
 header{
-    border: 1px #ff712d solid;
+    border: 1px  solid #ff712d;
+    border-bottom: 3px  outset #ff712d;
     background-color: #ff712d;
     position: absolute;
     left: 0px;
@@ -53,7 +54,8 @@ footer{
     bottom: 0px;
     left: 180px;
     right:180px;
-    border:1px #ff712d solid;
+    border-top:3px outset #cdcdcd;
+    
     background-color: #ff712d;
     
 }
