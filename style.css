@@ -7,3 +7,56 @@ tr{
 td{
     border: 1px solid;
 }
+h1{
+    color:blue;
+    text-align:center;
+    
+}
+.acc{
+    list-style-type:none;
+    
+}
+
+.acc-item {
+	display: inline-block;
+    margin-left: auto;
+  margin-right: auto;
+	
+}
+nav{
+    width:50%;
+    margin:auto;
+    border: 1px #5eaeae solid;
+    background-color: #5eaeae ;
+}
+a{
+  text-decoration: none;
+  text-align:center;
+  margin-left: 5px;
+  
+}
+a:hover{
+    color:#ff0000;
+    text-decoration: underline;
+}
+header{
+    border: 1px #ff712d solid;
+    background-color: #ff712d;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top:0px;
+    
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    left: 180px;
+    right:180px;
+    border:1px #ff712d solid;
+    background-color: #ff712d;
+    
+}
+body{
+    background-color: #cdcdcd;
+}
