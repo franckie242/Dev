@@ -22,7 +22,7 @@ unset($tab[0]);
 
 echo "<form action=\"academie.php\" method=\"post\">";
     echo "<fieldset>";
-        echo "<label for=\"academie\">Veuillez sélectionner ci-dessous l'académie que vous souhaitez trouver</label>";
+        echo "<label for=\"academie\">Veuillez sélectionner l'académie que vous souhaitez trouver </label>";
         echo "<select name=\"academie\" id=\"academie\">";
 
 foreach($tab as $val){
