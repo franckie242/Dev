@@ -30,7 +30,7 @@ echo "</select>";
 echo "<input type=\"submit\" value=\"OK\">";
 echo "</fieldset>";
 echo "</form>";
-echo "<section>"
+echo "<section>";
 $cpt = 0;
 if(isset($_POST['etablissement'])){
     for($j=1; $j<$nbTotalLignes;$j++){
@@ -53,8 +53,8 @@ if(isset($_POST['etablissement'])){
             echo "</table>";
         }
     }
-    echo $cpt." école(s) correspond(ent) à votre recherche";
+    echo '<p class="compteur">'.$cpt.' école(s) correspond(ent) à votre recherche';
 }
-echo "</section>"
+echo "</section>";
 require_once("footer.inc.php");
 ?>
