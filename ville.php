@@ -20,7 +20,7 @@ sort($tab, SORT_STRING); // On trie le tableau
 
 echo "<form action=\"ville.php\" method=\"post\">";
     echo "<fieldset>";
-        echo "<label for=\"ville\">Veuillez sélectionner ci-dessous la ville que vous souhaitez trouver</label>";
+        echo "<label for=\"ville\">Veuillez sélectionner  la ville que vous souhaitez trouver  </label>";
         echo "<select name=\"ville\" id=\"ville\">";
 
 foreach($tab as $val){
@@ -30,6 +30,7 @@ echo "</select>";
 echo "<input type=\"submit\" value=\"OK\">";
 echo "</fieldset>";
 echo "</form>";
+echo "<section>";
 $cpt=0;
 if(isset($_POST['ville'])){
     for($j=1; $j<$nbTotalLignes;$j++){
@@ -54,7 +55,7 @@ if(isset($_POST['ville'])){
     }
     echo $cpt." école(s) correspond(ent) à votre recherche";
 }
-
+echo "</section>";
 
 require_once("footer.inc.php");
 ?>
