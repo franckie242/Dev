@@ -15,6 +15,7 @@ tr{
 }
 td{
     border: 1px solid;
+	width: 250px;
 }
 h1{
     color:blue;
