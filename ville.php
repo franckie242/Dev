@@ -53,7 +53,7 @@ if(isset($_POST['ville'])){
                 echo "</table>";
             }
     }
-    echo $cpt." école(s) correspond(ent) à votre recherche";
+    echo '<p class="compteur">'.$cpt.' école(s) correspond(ent) à votre recherche</p>';
 }
 echo "</section>";
 
