@@ -31,7 +31,7 @@ echo "</select>";
 echo "<input type=\"submit\" value=\"OK\">";
 echo "</fieldset>";
 echo "</form>";
-
+echo "<section>";
 $cpt = 0;
 if(isset($_POST['region'])){
     for($j=1; $j<$nbTotalLignes;$j++){
@@ -56,5 +56,6 @@ if(isset($_POST['region'])){
     }
     echo $cpt." école(s) correspond(ent) à votre recherche";
 }
+echo "</section>";
 require_once("footer.inc.php");
 ?>
