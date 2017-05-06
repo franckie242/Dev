@@ -1,8 +1,16 @@
 table{
     border: 1px solid black;
+    /*position: relative;
+    top: 100px;*/
+}
+section{
+    position: absolute;
+    top:300px;
+    bottom: 300px; 
 }
 tr{
     border: 1px solid;
+    
 }
 td{
     border: 1px solid;
@@ -32,6 +40,7 @@ a{
   text-decoration: none;
   text-align:center;
   margin-left: 5px;
+  color:blue;
   
 }
 a:hover{
@@ -49,15 +58,41 @@ header{
     
 }
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     left: 180px;
     right:180px;
-    border-top:3px outset #cdcdcd;
+    border-top:3px outset #e4e4e4;
     
     background-color: #ff712d;
     
+    /*position: fixed;
+    right: 15px;
+    bottom: 0px;*/
 }
+
 body{
-    background-color: #cdcdcd;
+    background-color: #e4e4e4;
+}
+
+form{
+    
+    
+    width: 65%;
+    margin: auto;
+    height:50%;
+    position: relative;
+    top: 200px;
+    /*background-color: #0080ff;*/
+    
+    
+}
+
+input{
+    /*position: relative;
+    left: 555px;
+    top:5px;*/
+    font-weight:bold;
+    
+    
 }
