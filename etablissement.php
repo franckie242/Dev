@@ -20,7 +20,7 @@ sort($tab, SORT_STRING); // On trie le tableau
 
 echo "<form action=\"etablissement.php\" method=\"post\">";
     echo "<fieldset>";
-        echo "<label for=\"etablissement\">Veuillez sélectionner ci-dessous la région que vous souhaitez trouver</label>";
+        echo "<label for=\"etablissement\">Veuillez sélectionner la région que vous souhaitez trouver </label>";
         echo "<select name=\"etablissement\" id=\"etablissement\">";
 
 foreach($tab as $val){
