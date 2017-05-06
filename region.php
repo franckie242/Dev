@@ -54,7 +54,7 @@ if(isset($_POST['region'])){
             echo "</table>";
         }
     }
-    echo $cpt." école(s) correspond(ent) à votre recherche";
+    echo '<p class="compteur">'.$cpt.' école(s) correspond(ent) à votre recherche';
 }
 echo "</section>";
 require_once("footer.inc.php");
