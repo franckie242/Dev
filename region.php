@@ -21,7 +21,7 @@ unset($tab[0]);
 
 echo "<form action=\"region.php\" method=\"post\">";
     echo "<fieldset>";
-        echo "<label for=\"region\">Veuillez sélectionner ci-dessous la région que vous souhaitez trouver</label>";
+        echo "<label for=\"region\">Veuillez sélectionner la région que vous souhaitez trouver</label>";
         echo "<select name=\"region\" id=\"region\">";
 
 foreach($tab as $val){
