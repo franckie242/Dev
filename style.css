@@ -31,6 +31,7 @@ td{
 }
 h1{
     color:blue;
+    
   
 }
 .acc{
@@ -53,14 +54,15 @@ h1{
 nav{
     width:50%;
     margin:auto;
-    border: 1px solid #5eaeae;
-    background-color: #5eaeae ;
+    border: 1px solid #1515ff;
+    background-color: #1515ff ;
 }
 a{
   text-decoration: none;
   text-align:center;
   margin-left: 5px;
-  color:blue;
+  color:#ffffff;
+  
   
 }
 a:hover{
