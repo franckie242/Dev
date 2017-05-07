@@ -4,22 +4,30 @@ table{
     bottom: 70px;
     background-color: #ff8000;
     font-weight: bold;
+    width: 95%;
+    margin: auto;
+    
+    
     
 }
 section{
     position: absolute;
     top:390px;
+    text-align: center;
+    
     
     
     
 }
 tr{
     border: 1px solid ;
+   
     
 }
 td{
     border: 1px solid;
-    
+     
+     
 }
 h1{
     color:blue;
@@ -40,7 +48,7 @@ h1{
    position: relative;
    bottom:70px;
    font-weight:bold;
-   color: #ff8000;
+   color: #000000;
 }
 nav{
     width:50%;
