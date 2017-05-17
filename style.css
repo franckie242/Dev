@@ -9,7 +9,9 @@ table{
     
     
     
+    
 }
+
 section{
     position: absolute;
     top:390px;
@@ -24,16 +26,26 @@ tr{
    
     
 }
+th{
+    border: 1px solid;
+    width : 10%;
+}
 td{
     border: 1px solid;
-    width: 250px; 
-     
+    width : 10%;
 }
 h1{
-    color:blue;
-    
-  
+    color:blue;  
 }
+
+h2{
+    color:blue;
+}
+
+p{
+    background-color:white;
+}
+
 .acc{
     list-style-type:none;
     
@@ -61,10 +73,12 @@ a{
   text-decoration: none;
   text-align:center;
   margin-left: 5px;
-  color:#ffffff;
-  font-weight: bold;	
-  
-  
+  color:white;
+  font-weight: bold;
+}
+
+.backtop{
+    color:red;
 }
 a:hover{
     color:#ff0000;
@@ -93,7 +107,7 @@ footer{
 }
 
 body{
-    background:url('fac.jpg');
+    background:url('../fac.jpg');
     background-size:cover;
     margin:0;
     width:100%;
